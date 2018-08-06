@@ -1,0 +1,16 @@
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/bin/Debug/netcoreapp2.0/api.Unittest.deps.json
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/bin/Debug/netcoreapp2.0/api.Unittest.runtimeconfig.json
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/bin/Debug/netcoreapp2.0/api.Unittest.runtimeconfig.dev.json
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/bin/Debug/netcoreapp2.0/api.Unittest.dll
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/bin/Debug/netcoreapp2.0/api.Unittest.pdb
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/bin/Debug/netcoreapp2.0/api.dll
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/bin/Debug/netcoreapp2.0/api.pdb
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/obj/Debug/netcoreapp2.0/api.Unittest.csprojResolveAssemblyReference.cache
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/obj/Debug/netcoreapp2.0/api.Unittest.csproj.CoreCompileInputs.cache
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/obj/Debug/netcoreapp2.0/api.Unittest.AssemblyInfoInputs.cache
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/obj/Debug/netcoreapp2.0/api.Unittest.AssemblyInfo.cs
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/obj/Debug/netcoreapp2.0/api.Unittest.dll
+/Users/chonnikant/workspace/mahidol/test/api.Unittest/obj/Debug/netcoreapp2.0/api.Unittest.pdb

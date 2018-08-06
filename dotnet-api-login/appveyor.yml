@@ -1,0 +1,28 @@
+version: '1.0.{build}'
+image: Visual Studio 2017
+init:
+  - cmd: git config --global core.autocrlf true
+install: 
+  - ps: $urlCurrent = "https://download.microsoft.com/download/F/A/A/FAAE9280-F410-458E-8819-279C5A68EDCF/dotnet-sdk-2.0.0-preview2-006497-win-x64.zip"
+  - ps: $env:DOTNET_INSTALL_DIR = "$pwd\.dotnetsdk"
+  - ps: mkdir $env:DOTNET_INSTALL_DIR -Force | Out-Null
+  - ps: $tempFileCurrent = [System.IO.Path]::GetTempFileName()
+  - ps: (New-Object System.Net.WebClient).DownloadFile($urlCurrent, $tempFileCurrent)
+  - ps: Add-Type -AssemblyName System.IO.Compression.FileSystem; [System.IO.Compression.ZipFile]::ExtractToDirectory($tempFileCurrent, $env:DOTNET_INSTALL_DIR)
+  - ps: $env:Path = "$env:DOTNET_INSTALL_DIR;$env:Path"
+  - choco install "msbuild-sonarqube-runner" -y
+  - choco install "reportgenerator.portable" -y
+before_build:
+  - cmd: dotnet --version
+  - cmd: dotnet restore --verbosity m
+clone_depth: 0
+test_script: 
+  - cmd: OpenCover.Console.exe -register:user -target:"dotnet.exe" -targetargs:"test --configuration Release /p:DebugType=Full --framework netcoreapp2.0" -filter:"+[*]api.* -[*]api.UnitTest -[*]api.IntegrationTest -[*]api.AcceptanceTest -[*]*Startup -[*]*Program" -output:".\unit-results.xml" -returntargetcode -oldstyle
+  - ps: Push-AppveyorArtifact ".\unit-results.xml"
+  - cmd: ReportGenerator.exe -reports:"unit-results.xml" -targetdir:"CodeCoverageHTML" -reporttypes:HtmlSummary
+  - ps: Push-AppveyorArtifact ".\CodeCoverageHTML\summary.htm"
+on_finish :
+  - cmd: SonarQube.Scanner.MSBuild.exe begin /k:"sck-dotnet-api-login" /o:"sck-test" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="d5f81923c47958377fc21ce99de6b3f45130761d" /d:sonar.cs.opencover.reportsPaths=".\unit-results.xml"
+  - cmd: MsBuild.exe /t:Rebuild
+  - cmd: SonarQube.Scanner.MSBuild.exe end /d:sonar.login="d5f81923c47958377fc21ce99de6b3f45130761d"
+deploy: off

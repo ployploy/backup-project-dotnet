@@ -1,0 +1,13 @@
+/Users/chonnikant/workspace/timetracker/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/chonnikant/workspace/timetracker/bin/Debug/netcoreapp2.0/xunit.runner.utility.netstandard15.dll
+/Users/chonnikant/workspace/timetracker/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netstandard15.dll
+/Users/chonnikant/workspace/timetracker/bin/Debug/netcoreapp2.0/timetracker.deps.json
+/Users/chonnikant/workspace/timetracker/bin/Debug/netcoreapp2.0/timetracker.runtimeconfig.json
+/Users/chonnikant/workspace/timetracker/bin/Debug/netcoreapp2.0/timetracker.runtimeconfig.dev.json
+/Users/chonnikant/workspace/timetracker/bin/Debug/netcoreapp2.0/timetracker.dll
+/Users/chonnikant/workspace/timetracker/bin/Debug/netcoreapp2.0/timetracker.pdb
+/Users/chonnikant/workspace/timetracker/obj/Debug/netcoreapp2.0/timetracker.csproj.CoreCompileInputs.cache
+/Users/chonnikant/workspace/timetracker/obj/Debug/netcoreapp2.0/timetracker.AssemblyInfoInputs.cache
+/Users/chonnikant/workspace/timetracker/obj/Debug/netcoreapp2.0/timetracker.AssemblyInfo.cs
+/Users/chonnikant/workspace/timetracker/obj/Debug/netcoreapp2.0/timetracker.dll
+/Users/chonnikant/workspace/timetracker/obj/Debug/netcoreapp2.0/timetracker.pdb

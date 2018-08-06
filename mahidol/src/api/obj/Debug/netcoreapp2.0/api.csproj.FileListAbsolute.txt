@@ -1,0 +1,11 @@
+/Users/chonnikant/workspace/mahidol/src/api/bin/Debug/netcoreapp2.0/api.deps.json
+/Users/chonnikant/workspace/mahidol/src/api/bin/Debug/netcoreapp2.0/api.runtimeconfig.json
+/Users/chonnikant/workspace/mahidol/src/api/bin/Debug/netcoreapp2.0/api.runtimeconfig.dev.json
+/Users/chonnikant/workspace/mahidol/src/api/bin/Debug/netcoreapp2.0/api.dll
+/Users/chonnikant/workspace/mahidol/src/api/bin/Debug/netcoreapp2.0/api.pdb
+/Users/chonnikant/workspace/mahidol/src/api/obj/Debug/netcoreapp2.0/api.csprojResolveAssemblyReference.cache
+/Users/chonnikant/workspace/mahidol/src/api/obj/Debug/netcoreapp2.0/api.csproj.CoreCompileInputs.cache
+/Users/chonnikant/workspace/mahidol/src/api/obj/Debug/netcoreapp2.0/api.AssemblyInfoInputs.cache
+/Users/chonnikant/workspace/mahidol/src/api/obj/Debug/netcoreapp2.0/api.AssemblyInfo.cs
+/Users/chonnikant/workspace/mahidol/src/api/obj/Debug/netcoreapp2.0/api.dll
+/Users/chonnikant/workspace/mahidol/src/api/obj/Debug/netcoreapp2.0/api.pdb
